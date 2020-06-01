@@ -4,7 +4,7 @@
   "description": "A simple library full of useful utilities.",
   "main": "index.js",
   "scripts": {
-    "build": "tsc&typedoc --theme minimal --out docs lib"
+    "build": "tsc&typedoc --out docs lib"
   },
   "repository": {
     "type": "git",
