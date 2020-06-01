@@ -4,8 +4,7 @@
   "description": "A simple library full of useful utilities.",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "test": "set NODE_ENV=development&node ."
+    "build": "tsc&typedoc --theme minimal --out docs lib"
   },
   "repository": {
     "type": "git",
@@ -16,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/FFGFlash/FFGUtils/issues"
   },
-  "homepage": "https://github.com/FFGFlash/FFGUtils#readme",
+  "homepage": "https://ffgflash.github.io/FFGUtils",
   "devDependencies": {
     "typescript": "^3.9.3"
   },
