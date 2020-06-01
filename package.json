@@ -1,0 +1,26 @@
+{
+  "name": "ffg-utils",
+  "version": "1.0.0",
+  "description": "A simple library full of useful utilities.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "set NODE_ENV=development&node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FFGFlash/FFGUtils.git"
+  },
+  "author": "Drake Taylor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FFGFlash/FFGUtils/issues"
+  },
+  "homepage": "https://github.com/FFGFlash/FFGUtils#readme",
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "@types/node": "^14.0.6"
+  }
+}
