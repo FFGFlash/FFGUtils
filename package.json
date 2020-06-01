@@ -4,7 +4,7 @@
   "description": "A simple library full of useful utilities.",
   "main": "index.js",
   "scripts": {
-    "build": "tsc&typedoc --out docs lib&echo.include: [_*]>docs/_config.yml"
+    "build": "tsc&typedoc --out docs lib&copy _config.yml docs"
   },
   "repository": {
     "type": "git",
